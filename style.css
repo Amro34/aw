@@ -1,0 +1,440 @@
+.header{
+    background-image:url(./images/infinite-loop-01.jpg) ;
+    height: 100vh;
+    min-height: 375px;
+    background-repeat: no-repeat;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.head .ul{
+    display: flex;
+    padding: 30px;
+}
+.head .ul a{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+.head .ul a:hover{
+    background-color: #357;
+}
+.nav-item a{
+color: white !important;
+}
+.logo{
+    margin: 20px;
+}
+.logo a{    
+    color: white!important;
+    font-size: 25px;
+}
+.logo a:hover{
+    color: #38B;
+}
+.landing{
+margin-top: 220px;
+}
+.landing h2{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.landing h3{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:668px){
+    .landing h3{
+display: flex;
+justify-content: center;
+font-size: 15px;
+    }
+}
+.landing a{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #357;
+    width: 70px;
+    margin-top: 150px;
+    transition: 0.3s;
+    margin-left: 690px;
+}
+@media(max-width:668px){
+    .landing a{
+margin-left: 150px;
+    }
+} 
+.landing a:hover {
+    background-color: #38B;
+    padding:15px;  
+}
+.what {
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.what h2{
+    color: #38B;
+    font-size: 30px;
+}
+.what h4{
+    line-height: 1.7;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+@media(max-width:668px){
+    .what h4{
+        width: 100%;
+        margin-left: 0;
+    }
+}   
+.what h4 span{
+    color: #38B;
+    
+}
+.do-3{
+    margin-left: 170px;
+}
+.do-1{
+    display: flex;
+    width: 68%;
+}
+@media(min-width:668px){
+    .do-3{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
+    }
+} 
+.do-1 div i{
+margin-right: 30px;
+    color: #38B;
+    margin-top: 20px;
+}
+.do-1 h2{
+    margin-bottom: 20px;
+    color: #38B;
+}
+.do-1 p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #707070;
+}
+.do-1 a{
+    background-color: #357;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.do-1 a:hover{
+    background-color: #38B;
+}
+@media(max-width:668px){
+    .do-1 {
+width: 100%;
+    }
+} 
+@media(max-width:668px){
+    .do-3{
+margin-left: 20px;
+    }
+} 
+@media(max-width:668px){
+    .what{
+margin-left: 20px;
+    }
+} 
+.test-1{
+    background-image: url(./images/infinite-loop-02.jpg);
+    height: 800px;
+}
+.Testimonials{
+    text-align: center;
+}
+.Testimonials h2{
+    margin-top: 50px;
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+}
+.Testimonials p{
+    color: white;
+    line-height: 1.8;
+    margin-left: 450px;
+    margin-right:450px;
+}
+@media(max-width:668px){
+    .Testimonials p{
+margin-left: 20px;
+margin-right:20px;
+    }
+} 
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:280px ;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.test img{
+    border-radius: 80%;
+    margin: 10px;
+    margin-left: 30px;
+}
+.img-1 p{
+    width: 60%; 
+color: white;
+font-size: 18px;
+}
+.img-1 h2{
+    font-size: 15px;
+    color: white;
+    margin-left: 70px   ;
+}
+.img-2 p{
+    width: 60%; 
+    color: white;
+    font-size: 18px;
+}
+.img-2 h2{
+    font-size: 15px;
+    color: white;
+    margin-left: 70px   ;
+}
+.img-3 p{
+    width: 60%; 
+    color: white;
+    font-size: 18px;
+}
+.img-3 h2{
+    font-size: 15px;
+    color: white;
+    margin-left: 70px   ;
+}
+@media(max-width:668px){
+    .img-2 img{
+display: none;
+    }
+}
+@media(max-width:668px){
+    .img-2 p{
+display: none;
+    }
+}
+@media(max-width:668px){
+    .img-2 h2{
+display: none;
+    }
+}
+@media(max-width:668px){
+    .img-3 p{
+display: none;
+    }
+}
+@media(max-width:668px){
+    .img-3 h2{
+display: none;
+    }
+}
+@media(max-width:668px){
+    .img-3 img{
+display: none;
+    }
+}
+@media(max-width:668px){
+    .img-1 img{
+        margin-left: 50px;
+        margin-bottom: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+}
+@media(max-width:668px){
+    .img-1 p{
+width: 150%;
+        font-size: 16px;
+        margin:0;
+    }
+}
+@media(max-width:668px){
+    .img-1 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120%;
+    }
+}
+@media(max-width:668px){
+    .img-1 {
+margin-right: 250px;
+    }
+}
+.Testimon p{
+    color: #707070;
+    line-height: 1.8;
+    margin-left: 450px;
+    margin-right:450px;
+}
+@media(max-width:668px){
+    .Testimon p {
+        margin-right:0;
+        margin-left:0px;
+    }
+}
+.Testimon h2{
+    margin-top: 20px;
+    padding-top: 100px;
+    color: #38B;
+    font-size: 40px;
+}
+.Testimon{
+    text-align: center;
+} 
+.gallery{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.gal{
+    margin: 15px;
+    transition:  0.5s;
+}
+.gal img{
+    width: 200px;
+}
+
+.gal-1{
+    margin: 15px;
+    transition:  0.5s;
+}
+@media(max-width:668px){
+    .gal img {
+    display: none;
+    }
+}
+@media(max-width:668px){
+    .gal-1 img {
+    margin-left: 50px;
+    }
+}
+.gal-1 img{
+    width: 200px;
+    display: block !important;
+}
+.p{
+    margin-left: 380px  ;
+    margin-right: 380px ;
+}
+@media(max-width:668px){
+    .p {
+    margin: 0;
+    }
+}
+
+.contact{
+    background-image: url(./images/infinite-loop-03.jpg);
+    height: 850px;
+}
+@media(max-width:668px){
+    .contact{
+height: 1200px   ;
+        }
+}
+.con{
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+@media(max-width:668px){
+    .con{
+display: block;
+        margin-left: 20px;
+        }
+}
+.form input {
+    color: white;
+    margin-bottom: 20px;
+    height: 30px;
+background-color: transparent;
+    border: white 2px solid;
+    border-radius: 5px;
+    width: 400px;
+}
+@media(max-width:668px){
+    .form input {
+width: 350px;
+        }
+}
+.form .d {
+    height: 220px;
+}
+
+.i-1 a{
+    color: white;
+    display: flex;
+    margin-right:200px ;
+    cursor: pointer;
+}
+.i-1 a p{
+    font-size: 25px;
+    margin-bottom:20px;
+}
+.i-1 a i{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.i-1 a:hover{
+    color: #38B;
+}
+.btn a{
+    background-color: #357;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+
+}
+.btn{
+    margin-top: 30px;    
+}
+.o{
+    display: flex
+    ;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+}
+@media(max-width:668px){
+    .o{
+display: flex;
+justify-content: center;
+margin-left: 10px;
+margin-right: 10px;
+        }
+}
